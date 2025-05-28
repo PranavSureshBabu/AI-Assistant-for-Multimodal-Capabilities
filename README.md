@@ -1,3 +1,6 @@
 # AI Assistant for Multimodal Capabilities
-This AI Assistant project leverages the power of OpenAI’s GPT-4 and multimodal APIs to create an intelligent tool tailored for data science workflows. It understands both text and images, performs data analysis, visualizations, and code generation, making it an all-in-one assistant for students, researchers, and analysts. Built using Python, OpenAI API, and Streamlit, the app streamlines repetitive tasks, extracts insights, and enhances productivity in real-world data-driven projects. Whether you're exploring models or cleaning datasets, this assistant brings smart, contextual help right at your fingertips
+🧠 # 1. Overview – From Concept to Companion
+In today’s fast-paced data-driven world, data scientists are overwhelmed—not by lack of data, but by the time it takes to interact with it. This project is an ambitious leap toward solving that problem.
 
+This AI Assistant is your always-on, context-aware teammate.
+It doesn’t just understand numbers. It reads charts. It summarizes notebooks. It helps you code. And it grows smarter with every interaction.
