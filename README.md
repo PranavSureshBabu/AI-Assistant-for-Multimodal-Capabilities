@@ -8,7 +8,7 @@ This AI Assistant is your always-on, context-aware teammate.
 
 It doesn’t just understand numbers. It reads charts. It summarizes notebooks. It helps you code. And it grows smarter with every interaction.
 
-**Problem Statement – Why This Matters**
+**PROBLEM STATEMENT – Why This Matters**
 
 Despite the rise of automation, the daily grind of a data scientist remains fragmented:
 
@@ -21,7 +21,7 @@ Losing time in repetitive tasks like cleaning, summarizing, or writing documenta
 The AI Assistant bridges this gap — it empowers data scientists to interact with their tools and data seamlessly, using natural language, visual inputs, and intelligent guidance.
 
 
-**🛠️ 3. Features – What the Assistant Can Do**
+**🛠️FEATURES – What the Assistant Can Do**
 
 💬 Conversational Interface using OpenAI’s GPT-4 to answer questions, explain code, or debug errors.
 
@@ -35,3 +35,6 @@ The AI Assistant bridges this gap — it empowers data scientists to interact wi
 
 
 ![image](https://github.com/user-attachments/assets/8a33a7c1-89b6-4aea-afa8-95d5094d57ef)
+
+
+
