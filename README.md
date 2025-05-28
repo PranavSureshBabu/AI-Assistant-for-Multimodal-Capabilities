@@ -8,6 +8,9 @@ This AI Assistant is your always-on, context-aware teammate.
 
 It doesn’t just understand numbers. It reads charts. It summarizes notebooks. It helps you code. And it grows smarter with every interaction.
 
+![image](https://github.com/user-attachments/assets/10b77264-b8cf-4ce7-be67-2142a55e6cc1)
+
+
 **PROBLEM STATEMENT – Why This Matters**
 
 Despite the rise of automation, the daily grind of a data scientist remains fragmented:
