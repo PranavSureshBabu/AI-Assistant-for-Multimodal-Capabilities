@@ -96,4 +96,8 @@ You can ask questions like:
 
 - Extend support for non-English papers and scientific graphs.
 
-Enable feedback-based learning to refine summaries over time.
+- Enable feedback-based learning to refine summaries over time.
+
+## CHALLENGES FACED
+
+Setting up the vector store and linking it properly to the assistant took some trial and error. It was my first time using this feature, so I had to learn how semantic search works and how to connect all components correctly for meaningful responses.
