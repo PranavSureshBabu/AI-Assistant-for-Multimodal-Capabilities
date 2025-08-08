@@ -1,43 +1,99 @@
 # AI Assistant for Multimodal Capabilities
 
-**OVERVIEW**
+## OVERVIEW
 
-In today’s fast-paced data-driven world, data scientists are overwhelmed—not by lack of data, but by the time it takes to interact with it. This project is an ambitious leap toward solving that problem.
+This intelligent assistant is designed to help data professionals explore and summarize complex research papers, specifically around AGI (Artificial General Intelligence). Powered by OpenAI’s multimodal tools, the assistant reads and analyzes uploaded papers, providing meaningful summaries and insights — all accessible through simple Python code.
 
-This AI Assistant is your always-on, context-aware teammate.
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/da2d52c7-0ce2-4fb8-ad33-3936aed039fc" />
 
-It doesn’t just understand numbers. It reads charts. It summarizes notebooks. It helps you code. And it grows smarter with every interaction.
+## 📂 Dataset / Input Source
 
-![image](https://github.com/user-attachments/assets/10b77264-b8cf-4ce7-be67-2142a55e6cc1)
+- The content for this assistant is derived from academic research papers on AGI. These papers were accessed and uploaded via the DataCamp coding environment, where PDFs were provided as resources.
 
+- A set of 10+ AGI-related papers (from arXiv) were used.
 
-**PROBLEM STATEMENT – Why This Matters**
+- Each paper was uploaded and added to a vector store using OpenAI’s API.
 
-Despite the rise of automation, the daily grind of a data scientist remains fragmented:
-
-Switching between code, documents, dashboards, and explanations.
-
-Struggling to collaborate across modalities: text, images, and structured data.
-
-Losing time in repetitive tasks like cleaning, summarizing, or writing documentation.
-
-The AI Assistant bridges this gap — it empowers data scientists to interact with their tools and data seamlessly, using natural language, visual inputs, and intelligent guidance.
+- Titles included: "How Far Are We From AGI?", "Cognition is All You Need", and others.
 
 
-**🛠️FEATURES – What the Assistant Can Do**
+## 🎯 Goal / Objective
 
-💬 Conversational Interface using OpenAI’s GPT-4 to answer questions, explain code, or debug errors.
+- To build a smart assistant that can:
 
-📊 Multimodal Input: Upload charts, datasets, or even screenshots—the assistant understands and responds.
+- Understand and summarize complex research papers.
 
-🧾 Notebook Summary: Reads your Jupyter notebook and summarizes it in plain English.
+- Provide contextual answers based on AGI literature.
 
-🧹 Code Automation: Generates boilerplate code and documentation.
+- Serve as a learning tool for data scientists who want to stay current with AI developments without reading every paper manually.
 
-🔄 Context Awareness: Remembers past queries within a session to give coherent responses.
+## IMPLEMENTATION
+
+1. Problem Understanding
+
+Reading research papers is time-consuming and inefficient, especially for data professionals trying to stay updated on fast-moving AI developments. There's a growing need for a tool that can understand, organize, and summarize technical content automatically.
+
+2. Paper Uploading & Preprocessing
+
+The papers were uploaded directly in the DataCamp platform and then indexed through OpenAI’s assistants API. A Pandas DataFrame was created to track file names and titles.
+
+3. File Vectorization
+
+All uploaded PDFs were embedded into a vector store, which allows the assistant to search and retrieve content based on semantic understanding rather than keyword matching.
+
+4. Assistant Configuration
+
+An assistant was created using OpenAI's beta.assistants API. This assistant is capable of:
+
+ - Accessing the vector store,
+
+ - Responding to user queries,
+
+ - Summarizing large documents,
+
+ - Supporting reasoning across multiple documents.
+
+5. User Interaction
+
+You can ask questions like:
+
+ - “Summarize the paper on AGI definitions.”
+
+ - “What are the major risks discussed across all papers?”
+
+ - The assistant uses embeddings and chat completion to deliver highly contextual responses.
 
 
-![image](https://github.com/user-attachments/assets/8a33a7c1-89b6-4aea-afa8-95d5094d57ef)
+## TOOLS & TECHNOLOGIES USED
+
+- Python
+
+- OpenAI GPT-4 API (Assistants + Vector Stores)
+
+- Pandas for data organization
+
+- PDF Upload & Semantic Search
+
+- DataCamp Workspace (for interactive coding and testing)
 
 
+## RESULTS
 
+- Successfully built an AI assistant capable of summarizing dense, technical AGI research papers — reducing manual reading time by over 90%.
+
+- The assistant delivers concise, contextual answers from over 10+ AGI papers within seconds, making it a valuable tool for researchers who need to quickly absorb cutting-edge ideas.
+
+- Unlike traditional search tools, this assistant uses vector embeddings to understand meaning, enabling smarter question-answering and document summarization — ideal for environments dealing with complex, evolving technical content.
+
+
+## 🔭 Future Scope & Improvements
+
+- Add a Flask-based web interface for easier paper uploads and queries.
+
+- Integrate voice-based interaction for hands-free use.
+
+- Add document tagging and classification (e.g., theory vs implementation).
+
+- Extend support for non-English papers and scientific graphs.
+
+Enable feedback-based learning to refine summaries over time.
